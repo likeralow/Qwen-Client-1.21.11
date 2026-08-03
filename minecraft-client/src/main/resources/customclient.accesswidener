@@ -1,0 +1,16 @@
+{
+  "accessWidener": 2,
+  "namespace": "named",
+  "accessible": [
+    "class net/minecraft/client/gui/screen/Screen",
+    "field net/minecraft/client/MinecraftClient currentScreen Lnet/minecraft/client/gui/screen/Screen;",
+    "field net/minecraft/client/world/ClientWorld entities Lnet/minecraft/entity/EntityList;",
+    "field net/minecraft/entity/player/PlayerEntity inventory Lnet/minecraft/entity/player/PlayerInventory;",
+    "field net/minecraft/client/render/GameRenderer camera Lnet/minecraft/client/render/Camera;",
+    "field net/minecraft/client/network/ClientPlayerEntity input Lnet/minecraft/client/input/Input;",
+    "method net/minecraft/client/network/ClientPlayerNetworkHandler sendPacket (Lnet/minecraft/network/Packet;)V"
+  ],
+  "extendable": [
+    "class net/minecraft/client/gui/screen/Screen"
+  ]
+}
