@@ -1,5 +1,0 @@
-accessWidener v2 named
-
-accessible class net/minecraft/client/Minecraft
-accessible field net/minecraft/client/Minecraft level Lnet/minecraft/client/multiplayer/ClientLevel;
-accessible method net/minecraft/client/Minecraft getMainRenderTarget ()Lcom/mojang/blaze3d/pipeline/RenderTarget;

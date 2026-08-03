@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "customclient",
+  "version": "${version}",
+  "name": "Custom Client",
+  "description": "Кастомный Minecraft клиент с ClickGUI, модулями и миксинами",
+  "authors": [
+    "YourName"
+  ],
+  "contact": {
+    "homepage": "https://github.com/yourusername/customclient"
+  },
+  "license": "MIT",
+  "icon": "assets/customclient/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.customclient.client.CustomClient"
+    ]
+  },
+  "mixins": [
+    "customclient.mixins.json"
+  ],
+  "accessWidener": "customclient.accesswidener",
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.3",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
